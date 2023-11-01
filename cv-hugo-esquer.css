@@ -1,0 +1,63 @@
+/*Page général*/
+body{
+    background-image: url(images/cloud-upload-icon-line-connexion-carte-circuit.jpg);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+
+/* En-tête*/
+.en-tête {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photo-de-profil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50% ;
+    object-fit: cover;
+}
+
+.Contact {
+    box-shadow: rgba(0, 0, 0, 0.75) 1.95px 1.95px 2.6px;
+    background-color: rgba(135, 206, 250, 0.75);
+    border-radius: 10px;
+}
+.Contact p{
+    padding: 0 15px;
+}
+
+
+/*MAIN*/
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main div{
+    box-shadow: rgba(0, 0, 0, 0.50) 1.95px 1.95px 2.6px;
+    background-color: rgba(135, 206, 250, 0.75);
+    border-radius: 10px;
+}
+
+main p{
+    padding: 0 15px 10px 15px;
+}
+
+/*Formations*/
+article{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.diplome p {
+    display: inline-block;
+}
+.date{
+    margin-inline-end: 65px;
+}
+
+/*Experiences*/
+.experiences .date{
+    font-size: small;
+}
