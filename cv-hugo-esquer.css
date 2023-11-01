@@ -3,12 +3,17 @@ body{
     background-image: url(images/cloud-upload-icon-line-connexion-carte-circuit.jpg);
     background-size: cover;
     color: rgb(0, 0, 0);
+    font-family: sans-serif;
 }
 
 /* En-tête*/
 .en-tête {
     display: flex;
     justify-content: space-evenly;
+}
+
+.titre{
+    color: aliceblue;
 }
 
 .photo-de-profil{
