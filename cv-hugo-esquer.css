@@ -66,3 +66,17 @@ article{
 .experiences .date{
     font-size: small;
 }
+
+/*Footer*/
+footer{
+    color: aliceblue;
+    text-align: center;
+}
+
+a{
+    color: antiquewhite;
+}
+
+a:visited{
+    color: antiquewhite;
+}
